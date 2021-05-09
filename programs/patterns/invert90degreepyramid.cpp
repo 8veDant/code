@@ -3,19 +3,19 @@
 using namespace std;
 int main() 
 {
-    int n;
+    int length;
     char symbol;
     cout<<"Enter the value: ";
-    cin>>n;
+    cin>>length;
     cout<<"Enter the symbol: ";
     cin>>symbol;
-    for (int i = n; i>=1 ; i--)
+    for (int i = length; i>=1 ; i--)
     {
         for (int j = 1; j<=i; j++)
         {
             cout<<setw(2)<<symbol;
         }
-        cout<<"\n";
+        cout<<"\n"; 
           
         
     }
